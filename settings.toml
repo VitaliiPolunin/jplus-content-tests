@@ -1,0 +1,15 @@
+[default]
+REST_TIMEOUT_MS = 1000
+
+[DEV]
+# AUTH service
+AUTH_URL = "https://jellyfish-dev.eu.auth0.com"
+AUTH_CLIENT_ID = "Z9KxgnFJB4SWxrfCK7rzPiM7zsZg8EeD"
+AUTH_GRANT_TYPE = "http://auth0.com/oauth/grant-type/password-realm"
+AUTH_USERNAME = "automation+content@jellyfish.com"
+AUTH_PASSWORD = "_MOONwalk123"
+AUTH_REALM = "Username-Password-Authentication"
+AUTH_SCOPE = "openid email profile"
+
+# AI Content Service
+CONTENT_URI = "https://api.content.dev.jplus.io"
